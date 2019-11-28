@@ -3,7 +3,7 @@ This repo frames the OASIS PKCS 11 TC as a CMSIS-PACK (upstream: https://github.
 
 # Instructions
 1) open a bash compatible shell
-2) clone repository: git clone git@github.com:MDK-Packs/PKCS11.git
+2) clone repository: git clone https://github.com/MDK-Packs/PKCS11.git
 3) run ./get_upstream.sh
 4) run ./add_merge.sh to copy files from contributions/add to 'local' directory
 
