@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<package schemaVersion="1.6" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:noNamespaceSchemaLocation="PACK.xsd">
+<package schemaVersion="1.7.36" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Open-CMSIS-Pack/Open-CMSIS-Pack-Spec/v1.7.36/schema/PACK.xsd">
   <vendor>Arm-Packs</vendor>
   <name>PKCS11</name>
   <description>OASIS PKCS #11 Cryptographic Token Interface</description>
   <!-- web download link -->
   <url>https://github.com/MDK-Packs/Pack/raw/master/PKCS11/</url>
   <license>LICENSE.txt</license>
+  <licenseSets>
+    <licenseSet id="all" default="true" gating="true">
+      <license name="LICENSE.txt" title="OASIS IPR Policy"/>
+    </licenseSet>
+  </licenseSets>
   <releases>
     <release version="1.0.0" date="2019-10-25">
       Initial release based on OASIS PKCS11 v2.40 Errata 01
